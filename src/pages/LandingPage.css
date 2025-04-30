@@ -1,0 +1,126 @@
+.landing-page {
+    font-family: 'Arial', sans-serif;
+    color: #2d3436;
+  }
+  
+  .hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5)), 
+                url('https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tagline {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .get-started-btn {
+    padding: 12px 30px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #27ae60;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-section {
+    padding: 4rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2ecc71;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .featured-plants {
+    padding: 3rem 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .featured-plants h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2ecc71;
+  }
+  
+  .plant-categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .category-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .category-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .category-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .category-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .category-card p {
+    color: #636e72;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+    
+    .tagline {
+      font-size: 1.2rem;
+    }
+    
+    .plant-categories {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
